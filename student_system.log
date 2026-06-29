@@ -1,0 +1,6 @@
+2026-06-29 11:51:22,157 - INFO - Student Record Management System started
+2026-06-29 11:51:22,158 - INFO - Written 4 records to students.csv
+2026-06-29 11:51:22,159 - INFO - Written 4 records to students.json
+2026-06-29 11:51:22,159 - INFO - Student added successfully: Opoka Eric - 2400710784
+2026-06-29 11:51:22,198 - INFO - Searched and found student: U/24/10784/EVE
+2026-06-29 11:51:22,198 - INFO - System exited by user

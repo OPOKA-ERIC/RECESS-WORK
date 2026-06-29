@@ -1,0 +1,5 @@
+reg_number,name,student_number,program,address,contact
+U/24/10784/EVE,Opoka Eric,2400710784,Computer Science,P.O Box 123 Kampala,+256-700-000-000
+U/24/10001/EVE,John Doe,2400710001,Information Technology,P.O Box 456 Jinja,+256-700-000-001
+U/24/10002/EVE,Jane Smith,2400710002,Business Administration,P.O Box 789 Mbale,+256-700-000-002
+Opoka Eric,2400710784,Computer Science,P.O Box 123 Kampala,+256-700-000-000,2

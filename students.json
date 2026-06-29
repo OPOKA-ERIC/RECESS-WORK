@@ -1,0 +1,38 @@
+[
+    {
+        "reg_number": "U/24/10784/EVE",
+        "name": "Opoka Eric",
+        "student_number": "2400710784",
+        "program": "Computer Science",
+        "address": "P.O Box 123 Kampala",
+        "contact": "+256-700-000-000",
+        "created_at": "2026-06-29T10:00:00"
+    },
+    {
+        "reg_number": "U/24/10001/EVE",
+        "name": "John Doe",
+        "student_number": "2400710001",
+        "program": "Information Technology",
+        "address": "P.O Box 456 Jinja",
+        "contact": "+256-700-000-001",
+        "created_at": "2026-06-29T10:05:00"
+    },
+    {
+        "reg_number": "U/24/10002/EVE",
+        "name": "Jane Smith",
+        "student_number": "2400710002",
+        "program": "Business Administration",
+        "address": "P.O Box 789 Mbale",
+        "contact": "+256-700-000-002",
+        "created_at": "2026-06-29T10:10:00"
+    },
+    {
+        "reg_number": "Opoka Eric",
+        "name": "2400710784",
+        "student_number": "Computer Science",
+        "program": "P.O Box 123 Kampala",
+        "address": "+256-700-000-000",
+        "contact": "2",
+        "created_at": "2026-06-29T11:51:22.158607"
+    }
+]
