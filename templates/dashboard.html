@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dashboard-card {
+            background: #fff;
+            padding: 50px 40px;
+            border-radius: 10px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 420px;
+        }
+        .dashboard-card h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .dashboard-card p {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .logout-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #d32f2f;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: opacity 0.3s;
+        }
+        .logout-btn:hover {
+            opacity: 0.85;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-card">
+        <h1>Welcome, {{ username }}!</h1>
+        <p>You have successfully logged in.</p>
+        <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+    </div>
+</body>
+</html>
